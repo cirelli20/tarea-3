@@ -33,7 +33,7 @@ class Marca {
     this.x = x;
     this.y = y;
     this.diametro = 100; // Tamaño de la marca
-    this.color = color(random(255), random(255), random(255)); // Color aleatorio
+    this.color = color(random(255), random(255), random(255), 150); // Color aleatorio con valor alfa
   }
 
   mostrar() {
@@ -42,4 +42,3 @@ class Marca {
     ellipse(this.x, this.y, this.diametro);
   }
 }
-
